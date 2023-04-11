@@ -7,6 +7,7 @@ namespace Catalog.API.Data
     {
         public static void SeedData(IMongoCollection<Product> productCollection)
         {
+            // kiểm tra xem có dữ liệu không, nếu không có thì thực hiện đổ dữ liệu mẫu vào
             bool existProduct = productCollection.Find(p => true).Any();
             if(!existProduct)
             {
@@ -14,6 +15,10 @@ namespace Catalog.API.Data
             }
         }
 
+        /// <summary>
+        /// Hàm tạo bộ dữ liệu mẫu để insert vào db
+        /// </summary>
+        /// <returns></returns>
         private static IEnumerable<Product> GetPreconfiguredProducts()
         {
             return new List<Product>()
