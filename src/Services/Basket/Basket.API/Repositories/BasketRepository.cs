@@ -3,7 +3,7 @@ using Microsoft.Extensions.Caching.Distributed;
 using Newtonsoft.Json;
 using System.Text.Json.Serialization;
 
-namespace Basket.API.Repository
+namespace Basket.API.Repositories
 {
     public class BasketRepository : IBasketRepository
     {

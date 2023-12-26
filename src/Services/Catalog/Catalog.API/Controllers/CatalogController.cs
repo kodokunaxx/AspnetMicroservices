@@ -1,5 +1,5 @@
 ﻿using Catalog.API.Entities;
-using Catalog.API.Repository;
+using Catalog.API.Repositories;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
 using System.Xml.Linq;

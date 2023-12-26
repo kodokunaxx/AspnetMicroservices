@@ -3,7 +3,7 @@ using Catalog.API.Entities;
 using MongoDB.Driver;
 using System;
 
-namespace Catalog.API.Repository
+namespace Catalog.API.Repositories
 {
     public class ProductRepository : IProductRepository
     {

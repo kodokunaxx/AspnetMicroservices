@@ -1,7 +1,7 @@
 ﻿using Catalog.API.Entities;
 using System;
 
-namespace Catalog.API.Repository
+namespace Catalog.API.Repositories
 {
     public interface IProductRepository
     {

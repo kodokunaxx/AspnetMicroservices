@@ -1,4 +1,4 @@
-using Basket.API.Repository;
+using Basket.API.Repositories;
 using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
